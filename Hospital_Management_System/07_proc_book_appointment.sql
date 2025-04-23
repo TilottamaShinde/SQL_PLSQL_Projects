@@ -11,3 +11,5 @@ BEGIN
 END $$
 
 DELIMITER ;
+
+-- CALL book_appointment(101, 5, '2025-04-25');
