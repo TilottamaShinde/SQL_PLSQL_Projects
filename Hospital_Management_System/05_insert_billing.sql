@@ -1,4 +1,4 @@
-INSERT INTO Billing (appointment_id, anount, billing_date) VALUES
+INSERT INTO Billing (appointment_id, amount, billing_date) VALUES
 (101, 1500.00, '2025-04-01'),
 (102, 2300.50, '2025-04-02'),
 (103, 1100.75, '2025-04-03'),
