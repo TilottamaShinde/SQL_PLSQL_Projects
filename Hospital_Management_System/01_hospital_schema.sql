@@ -33,7 +33,7 @@ CREATE TABLE Appointments (
 CREATE TABLE Billing (
 	bill_id INT AUTO_INCREMENT PRIMARY KEY,
     appointment_id INT,
-    anount DECIMAL(10,2),
+    amount DECIMAL(10,2),
     billing_date DATETIME NOT NULL  DEFAULT(CURRENT_TIMESTAMP),
     payment_mode ENUM('Cash','Card','Online'),
     FOREIGN KEY (appointment_id) REFERENCES Appointments(appointment_id)
