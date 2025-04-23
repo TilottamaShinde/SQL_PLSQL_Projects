@@ -12,4 +12,4 @@ JOIN Patients p ON a.patient_id = p.patient_id
 JOIN Doctors d ON a.doctor_id = d.doctor_id
 LEFT JOIN Billing b ON a.appointment_id = b.appointment_id;
 
-#SELECT * FROM view_appointment_billing;
+-- SELECT * FROM view_appointment_billing;
