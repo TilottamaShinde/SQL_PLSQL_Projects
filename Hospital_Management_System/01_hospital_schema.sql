@@ -54,3 +54,10 @@ CREATE TABLE Billing_log(
     billing_date DATE,
     log_timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+CREATE TABLE Appointment_log (
+	log_id INT AUTO_INCREMENT PRIMARY KEY,
+    appointment_id INT,
+    log_message VARCHAR(255),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
