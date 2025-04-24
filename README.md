@@ -29,3 +29,31 @@ A simple database project that manages employee data and attendance using SQL an
 - `employee_audit.sql`
 - `get_attendance_summary.sql`
 - `after_employee_insert_trigger.sql`
+------------------------------------
+
+### 2. 🏥 Hospital Management System
+
+**Description**:  
+A comprehensive database project designed to manage hospital operations such as patient registrations, doctor listings, appointment scheduling, and treatment history using SQL and PL/SQL.
+
+**Key Features**:
+- Patient, Doctor, Appointment, and Treatment tables
+- Appointment scheduling and tracking system
+- Stored Procedures to assign doctors and generate treatment reports
+- Triggers for audit and activity logging
+
+**Implemented Concepts**:
+- Table design with relationships
+- Insert/Update/Delete operations
+- Foreign key constraints
+- Triggers
+- Stored Procedures
+- Conditional logic and joins
+
+**Files Included**:
+- `patients.sql`
+- `doctors.sql`
+- `appointments.sql`
+- `treatments.sql`
+- `assign_doctor_procedure.sql`
+- `audit_trigger.sql`
