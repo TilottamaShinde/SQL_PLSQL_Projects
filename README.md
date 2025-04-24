@@ -51,9 +51,16 @@ A comprehensive database project designed to manage hospital operations such as 
 - Conditional logic and joins
 
 **Files Included**:
-- `patients.sql`
-- `doctors.sql`
-- `appointments.sql`
-- `treatments.sql`
-- `assign_doctor_procedure.sql`
-- `audit_trigger.sql`
+- `hospital_schema.sql`
+- `insert_patient.sql`
+- `insert_doctors.sql`
+- `insert_appointments.sql`
+- `insert_billing.sql`
+- 'insert_pharmacy.sql`
+- `view_appointment_billing.sql`
+- `view_billing_summary.sql`
+- `view_todays_appointment.sql`
+- `proc_generate_bill.sql`
+- `trig_before_insert_patient.sql`
+- `trig_after_insert_appointment.sql`
+- `trig_after_update_billing.sql`
