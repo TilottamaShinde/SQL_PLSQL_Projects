@@ -24,11 +24,15 @@ A simple database project that manages employee data and attendance using SQL an
 - Aggregate functions
 
 **Files Included**:
-- `employees.sql`
-- `attendance.sql`
-- `employee_audit.sql`
-- `get_attendance_summary.sql`
-- `after_employee_insert_trigger.sql`
+- `01_create_database.sql`
+- `02_create_table.sql`
+- `03_insert_sample_data.sql`
+- `04_stored_procedure_add_employee.sql`
+- `05_employee_audit_table.sql`
+- `06_trg_after_salary_update.sql`
+- `update_employee.sql`
+- `07_proc_update_employee_status.sql`
+- `08_proc_get_attendance_summery.sql`
 ------------------------------------
 
 ### 2. 🏥 Hospital Management System
