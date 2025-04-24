@@ -46,3 +46,11 @@ CREATE TABLE Pharmacy (
     price DECIMAL(8,2),
     expiry_date DATE
 );
+
+CREATE TABLE Billing_log(
+	log_id INT AUTO_INCREMENT PRIMARY KEY,
+    appointment_id INT,
+    amount DECIMAL(10,2),
+    billing_date DATE,
+    log_timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
