@@ -1,3 +1,4 @@
+-- insert into department table 
 INSERT INTO departments (dept_name) VALUES 
 ('Human Resources'),
 ('Finance'),
