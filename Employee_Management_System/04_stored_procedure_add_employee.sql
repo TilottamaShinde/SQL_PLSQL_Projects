@@ -1,3 +1,4 @@
+-- procedure to add new employee in employees table
 DELIMITER $$
 
 CREATE PROCEDURE add_employee (
