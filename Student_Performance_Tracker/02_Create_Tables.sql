@@ -1,5 +1,6 @@
 -- Script for creating tables
 
+-- Student table
 CREATE TABLE Students (
 	student_id INT AUTO_INCREMENT PRIMARY KEY,
     first_name VARCHAR(50) NOT NULL,
