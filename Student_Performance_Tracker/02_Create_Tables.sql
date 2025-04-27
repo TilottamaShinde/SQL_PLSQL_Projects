@@ -29,3 +29,15 @@ CREATE TABLE Courses (
 );
 
 -- Marks Table 
+CREATE TABLE Marks(
+	mark_id INT AUTO_INCREMENT PRIMARY KEY,
+    student_id INT NOT NULL,
+    course_id INT NOT NULL,
+    marks_obtained DECIMAL(5,2) NOT NULL,
+    max_marks DECIMAL(5,2) NOT NULL DEFAULT 100,
+    exam_date DATE NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    FOREIGN KEY (student_id) REFERENCES Students(student_id),
+    FOREIGN KEY (course_id) REFERENCES Courses(course_id)
+);
