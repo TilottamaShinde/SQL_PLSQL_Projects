@@ -41,3 +41,16 @@ CREATE TABLE Marks(
     FOREIGN KEY (student_id) REFERENCES Students(student_id),
     FOREIGN KEY (course_id) REFERENCES Courses(course_id)
 );
+
+-- Attendance Table
+CREATE TABLE Attendance (
+	attendence_id INT AUTO_INCREMENT PRIMARY KEY,
+    student_id INT NOT NULL,
+    course_id INT NOT NULL,
+    attendance_date DATE NOT NULL,
+    status ENUM('Present','Absent') NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    FOREIGN KEY (student_id) REFERENCES Students(student_id),
+    FOREIGN KEY (course_id) REFERENCES Courses(course_id)
+);
