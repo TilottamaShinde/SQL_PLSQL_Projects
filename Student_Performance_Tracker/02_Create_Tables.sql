@@ -16,3 +16,5 @@ CREATE TABLE Students (
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
     
 );
+
+-- Courses table
