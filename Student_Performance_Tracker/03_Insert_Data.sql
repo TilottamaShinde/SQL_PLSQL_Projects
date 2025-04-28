@@ -148,3 +148,74 @@ INSERT INTO Marks (student_id, course_id, marks_obtained, exam_date) VALUES
 
 
 
+-- Insert data into attendance table 
+-- For 2025-03-15
+INSERT INTO Attendance (student_id, course_id, attendance_date, status) VALUES
+(1, 1, '2025-03-15', 'Present'),
+(2, 1, '2025-03-15', 'Present'),
+(3, 2, '2025-03-15', 'Absent'),
+(4, 1, '2025-03-15', 'Present'),
+(5, 3, '2025-03-15', 'Present'),
+(6, 1, '2025-03-15', 'Absent'),
+(7, 2, '2025-03-15', 'Present'),
+(8, 1, '2025-03-15', 'Present'),
+(9, 3, '2025-03-15', 'Present'),
+(10, 2, '2025-03-15', 'Absent'),
+(11, 5, '2025-03-15', 'Present'),
+(12, 1, '2025-03-15', 'Present'),
+(13, 2, '2025-03-15', 'Present'),
+(14, 5, '2025-03-15', 'Absent'),
+(15, 1, '2025-03-15', 'Present'),
+(16, 3, '2025-03-15', 'Present'),
+(17, 2, '2025-03-15', 'Absent'),
+(18, 1, '2025-03-15', 'Present'),
+(19, 3, '2025-03-15', 'Present'),
+(20, 4, '2025-03-15', 'Absent');
+
+-- For 2025-03-16
+INSERT INTO Attendance (student_id, course_id, attendance_date, status) VALUES
+(1, 2, '2025-03-16', 'Present'),
+(2, 3, '2025-03-16', 'Absent'),
+(3, 4, '2025-03-16', 'Present'),
+(4, 6, '2025-03-16', 'Present'),
+(5, 5, '2025-03-16', 'Present'),
+(6, 4, '2025-03-16', 'Present'),
+(7, 5, '2025-03-16', 'Absent'),
+(8, 4, '2025-03-16', 'Present'),
+(9, 7, '2025-03-16', 'Present'),
+(10, 6, '2025-03-16', 'Absent'),
+(11, 9, '2025-03-16', 'Present'),
+(12, 4, '2025-03-16', 'Present'),
+(13, 3, '2025-03-16', 'Present'),
+(14, 6, '2025-03-16', 'Present'),
+(15, 2, '2025-03-16', 'Absent'),
+(16, 4, '2025-03-16', 'Present'),
+(17, 6, '2025-03-16', 'Present'),
+(18, 5, '2025-03-16', 'Present'),
+(19, 7, '2025-03-16', 'Present'),
+(20, 8, '2025-03-16', 'Present');
+
+-- For 2025-03-17
+INSERT INTO Attendance (student_id, course_id, attendance_date, status) VALUES
+(1, 5, '2025-03-17', 'Present'),
+(2, 5, '2025-03-17', 'Present'),
+(3, 5, '2025-03-17', 'Absent'),
+(4, 8, '2025-03-17', 'Present'),
+(5, 7, '2025-03-17', 'Present'),
+(6, 10, '2025-03-17', 'Present'),
+(7, 8, '2025-03-17', 'Present'),
+(8, 9, '2025-03-17', 'Absent'),
+(9, 7, '2025-03-17', 'Present'),
+(10, 8, '2025-03-17', 'Present'),
+(11, 9, '2025-03-17', 'Present'),
+(12, 4, '2025-03-17', 'Absent'),
+(13, 7, '2025-03-17', 'Present'),
+(14, 9, '2025-03-17', 'Present'),
+(15, 8, '2025-03-17', 'Present'),
+(16, 5, '2025-03-17', 'Present'),
+(17, 6, '2025-03-17', 'Absent'),
+(18, 5, '2025-03-17', 'Present'),
+(19, 7, '2025-03-17', 'Present'),
+(20, 8, '2025-03-17', 'Present');
+
+
