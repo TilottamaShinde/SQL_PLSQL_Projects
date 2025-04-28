@@ -100,5 +100,20 @@ Built with **real-time automation** using triggers and procedures for profession
 - `Attendance`: Attendance percentage tracking.
 
 
+##  Features
+
+- **✅ Automatic Grade Calculation**
+  - Based on marks percentage using a stored procedure `Assign_Grades()`.
+
+- **✅ Real-time Updates**
+  - Triggers on the `Marks` table fire after `INSERT` or `UPDATE` and call `Assign_Grades()` automatically.
+
+- **✅ Comprehensive Data Structure**
+  - Foreign key relationships to ensure referential integrity.
+
+- **✅ Extendable Reports**
+  - Views can be created for dynamic report cards and GPA calculations.
+
+
 
 
