@@ -115,5 +115,22 @@ Built with **real-time automation** using triggers and procedures for profession
   - Views can be created for dynamic report cards and GPA calculations.
 
 
+##  Core Components
 
+###  Stored Procedure: `Assign_Grades()`
+
+Calculates and updates grades based on student marks.
+
+**Grade Logic:**
+| Percentage | Grade |
+|:----------:|:-----:|
+| >= 90%     | A+    |
+| >= 80%     | A     |
+| >= 70%     | B     |
+| >= 60%     | C     |
+| >= 50%     | D     |
+| < 50%      | F     |
+
+```sql
+CALL Assign_Grades();
 
