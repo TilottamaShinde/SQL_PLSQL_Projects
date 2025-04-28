@@ -68,3 +68,37 @@ A comprehensive database project designed to manage hospital operations such as 
 - `trig_before_insert_patient.sql`
 - `trig_after_insert_appointment.sql`
 - `trig_after_update_billing.sql`
+------------------------------------------------------------------------------------------------------------
+
+
+#  Student Performance Tracker
+
+A professional MySQL project to manage and track student performance using **stored procedures**, **triggers**, and **views**.
+
+---
+
+##  Project Overview
+
+This system tracks:
+- Student records
+- Courses offered
+- Marks obtained
+- Attendance percentage
+- Grades (auto-calculated)
+
+Built with **real-time automation** using triggers and procedures for professional-grade database management.
+
+---
+
+## 🛠 Database Details
+
+###  Tables
+
+- `Students`: Student personal and admission details.
+- `Courses`: List of available courses.
+- `Marks`: Student marks per course.
+- `Attendance`: Attendance percentage tracking.
+
+
+
+
