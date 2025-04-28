@@ -131,6 +131,17 @@ Calculates and updates grades based on student marks.
 | >= 50%     | D     |
 | < 50%      | F     |
 
-```sql
+sql
 CALL Assign_Grades();
 
+### Triggers
+
+**trg_after_marks_insert**
+
+Fires after a new mark is inserted.
+
+**trg_after_marks_update**
+
+Fires after a mark is updated.
+
+Both triggers automatically call Assign_Grades() to ensure the Grades table is always updated.
