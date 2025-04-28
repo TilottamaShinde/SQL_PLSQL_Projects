@@ -145,3 +145,30 @@ Fires after a new mark is inserted.
 Fires after a mark is updated.
 
 Both triggers automatically call Assign_Grades() to ensure the Grades table is always updated.
+
+## Workflow
+1. Insert or update records in the Marks table.
+
+2. Trigger fires automatically.
+
+3. Stored procedure recalculates grades.
+
+4. Grades table is updated real-time.
+
+## Technologies Used
+Database: MySQL 8+
+
+Tools: MySQL Workbench, DBeaver, phpMyAdmin
+
+Language: SQL
+
+## Future Enhancements
+- Overall GPA Calculation
+
+- Report Card View Generation
+
+- Performance Dashboards
+
+- Exportable Report Cards (PDF, Excel)
+
+
