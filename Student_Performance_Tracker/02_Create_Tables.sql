@@ -54,3 +54,14 @@ CREATE TABLE Attendance (
     FOREIGN KEY (student_id) REFERENCES Students(student_id),
     FOREIGN KEY (course_id) REFERENCES Courses(course_id)
 );
+
+-- Grades Table 
+CREATE TABLE Grades (
+	grade_id INT AUTO_INCREMENT PRIMARY KEY,
+    student_id INT NOT NULL,
+    student_name VARCHAR(150) NOT NULL,
+    overall_percenatage DECIMAL(5,2) NOT NULL,
+    grade CHAR(2) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (student_id) REFERENCES Students(student_id)
+);
