@@ -22,3 +22,20 @@ VALUES
 ('Sneha', 'Gupta', '2006-07-09', 'Female', 'sneha.gupta@example.com', '9876543227', 'Indore, India', '2022-08-15', 'Active'),
 ('Rahul', 'Bansal', '2005-09-21', 'Male', 'rahul.bansal@example.com', '9876543228', 'Chandigarh, India', '2022-08-20', 'Inactive'),
 ('Priya', 'Kulkarni', '2006-01-25', 'Female', 'priya.kulkarni@example.com', '9876543229', 'Nagpur, India', '2022-08-25', 'Active');
+
+
+-- Insert data into Courses table 
+INSERT INTO Courses (course_name, course_code, credits, department)
+VALUES 
+('Mathematics', 'MATH101', 4, 'Science'),
+('Physics', 'PHYS101', 4, 'Science'),
+('Chemistry', 'CHEM101', 4, 'Science'),
+('English Literature', 'ENG101', 3, 'Arts'),
+('Computer Science', 'CS101', 5, 'Engineering'),
+('History', 'HIST101', 3, 'Arts'),
+('Economics', 'ECON101', 4, 'Commerce'),
+('Biology', 'BIO101', 4, 'Science'),
+('Accounting', 'ACC101', 4, 'Commerce'),
+('Environmental Studies', 'ENV101', 2, 'Science');
+
+
