@@ -176,7 +176,7 @@ Language: SQL
 -----------------------------------
 ### HRMS Payroll
 
-
+To manage employee salaries, deductions, allowances, bonuses, and payslips efficiently.
 
 ----------------------------------
 
