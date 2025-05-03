@@ -183,7 +183,8 @@ To manage employee salaries, deductions, allowances, bonuses, and payslips effic
 Hrms_payroll
 
 ## Tables 
-
+- Employee
+- Departmets 
 ----------------------------------
 
 
