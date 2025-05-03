@@ -184,7 +184,8 @@ Hrms_payroll
 
 ## Tables 
 - Employee
-- Departmets 
+- Departmets
+- Employee_attendace
 ----------------------------------
 
 
