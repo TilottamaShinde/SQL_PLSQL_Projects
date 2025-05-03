@@ -178,6 +178,8 @@ Language: SQL
 
 To manage employee salaries, deductions, allowances, bonuses, and payslips efficiently.
 
+Schema Name : Hrms_payroll
+
 ----------------------------------
 
 
