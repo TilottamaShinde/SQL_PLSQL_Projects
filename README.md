@@ -186,7 +186,8 @@ Hrms_payroll
 - Employee
 - Departmets
 - Employee_attendace
-- Employee_deduction 
+- Employee_deduction
+- Employee_payslip
 ----------------------------------
 
 
