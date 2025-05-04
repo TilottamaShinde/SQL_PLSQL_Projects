@@ -189,6 +189,7 @@ Hrms_payroll
 - Employee_deduction
 - Employee_payslip
 - Employee_payslip
+- Employee_salary
 ----------------------------------
 
 
