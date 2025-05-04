@@ -190,6 +190,7 @@ Hrms_payroll
 - Employee_payslip
 - Employee_payslip
 - Employee_salary
+- System_users
 ----------------------------------
 
 
