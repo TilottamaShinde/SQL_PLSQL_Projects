@@ -194,6 +194,7 @@ Hrms_payroll
 
 ## Triggers 
 -  after_employee_insert
+-  after_employee_update
 ----------------------------------
 
 
