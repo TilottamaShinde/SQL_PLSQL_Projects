@@ -191,6 +191,9 @@ Hrms_payroll
 - Employee_payslip
 - Employee_salary
 - System_users
+
+## Triggers 
+-  after_employee_insert
 ----------------------------------
 
 
