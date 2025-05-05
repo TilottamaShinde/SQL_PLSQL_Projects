@@ -56,7 +56,7 @@ BEGIN
         p_basic_salary + p_hra + p_special_allowance + p_other_allowance, 'Draft', CURRENT_TIMESTAMP, 'Initial Payslip'
     );
     
-    --
+    -- Insert into Audit_Log table
     INSERT INTO audit_log (
 			action_taken, table_name, record_id, changed_by, change_timestamp, old_value, new_value
 		)
