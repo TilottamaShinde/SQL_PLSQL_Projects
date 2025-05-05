@@ -196,6 +196,8 @@ Hrms_payroll
 -  after_employee_insert
 -  after_employee_update
 -  after_employee_delete
+
+## Procedures
 ----------------------------------
 
 
