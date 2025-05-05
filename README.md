@@ -198,6 +198,7 @@ Hrms_payroll
 -  after_employee_delete
 
 ## Procedures
+- AddEmployee
 ----------------------------------
 
 
