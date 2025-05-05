@@ -45,7 +45,7 @@ BEGIN
         p_basic_salary + p_hra + p_special_allowance + p_other_allowance
     );
     
-    --
+    -- Insert into Employee_payslip table
     INSERT INTO employee_payslip (
 		emp_id, pay_month, basic_salary, hra, special_allowance, other_allowance,
         total_earnings, total_deductions, net_pay, status, generated_on, remarks
