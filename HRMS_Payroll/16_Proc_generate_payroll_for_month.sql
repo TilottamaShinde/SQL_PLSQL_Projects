@@ -46,3 +46,8 @@ BEGIN
 	END $$
 
 DELIMITER ;
+
+
+
+-- Usage
+-- CALL generate_payroll_for_month('2025-05-01');
