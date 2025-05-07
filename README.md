@@ -199,6 +199,7 @@ Hrms_payroll
 
 ## Procedures
 - AddEmployee
+- generate_payroll_for_month
 ----------------------------------
 
 
