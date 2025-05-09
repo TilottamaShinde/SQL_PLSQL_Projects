@@ -1,3 +1,4 @@
+-- Procedure to generate the monthly payroll
 DELIMITER $$
 
 CREATE PROCEDURE generate_payroll_for_month(IN p_pay_month DATE)
