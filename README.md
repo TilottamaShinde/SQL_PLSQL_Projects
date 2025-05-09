@@ -178,6 +178,8 @@ Language: SQL
 
 To manage employee salaries, deductions, allowances, bonuses, and payslips efficiently.
 
+**Description**:  
+A comprehensive database project designed to manage HRMS operations using SQL and PL/SQL.
 *** Schema Name : ***
 
 Hrms_payroll
