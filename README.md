@@ -184,6 +184,14 @@ A comprehensive database project designed to manage HRMS operations using SQL an
 
 Hrms_payroll
 
+## Implemented Concepts:
+
+Table creation
+Insert/Update/Delete operations
+Triggers
+Stored Procedures
+Aggregate functions
+
 ## Tables 
 - Employee
 - Departmets
