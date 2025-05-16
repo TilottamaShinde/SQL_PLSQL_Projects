@@ -210,6 +210,10 @@ Aggregate functions
 ## Procedures
 - AddEmployee
 - generate_payroll_for_month
+
+
+## Views
+- Monthly_Payroll_Report
 ----------------------------------
 
 
