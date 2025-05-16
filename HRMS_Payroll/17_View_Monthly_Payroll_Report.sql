@@ -1,14 +1,6 @@
--- This view will show consolidated payroll data per employee for each month, including their:Name
+-- This view will show consolidated payroll data per employee for each month, including their: Name, Pay month, Total earnings, Total deductions, Net pay, Status (Draft / Finalized / Paid)
 
-Pay month
 
-Total earnings
-
-Total deductions
-
-Net pay
-
-Status (Draft / Finalized / Paid)
 CREATE VIEW Monthly_Payroll_Report AS
 SELECT 
 	ep.payslip_id,
