@@ -215,6 +215,7 @@ Aggregate functions
 ## Views
 - Monthly_Payroll_Report
 - Employee_loan_status
+- active_employee_salary_summary
 ----------------------------------
 
 
