@@ -216,6 +216,7 @@ Aggregate functions
 - Monthly_Payroll_Report
 - Employee_loan_status
 - active_employee_salary_summary
+- monthly_deductions_summary
 ----------------------------------
 
 
