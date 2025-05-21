@@ -218,6 +218,7 @@ Aggregate functions
 - active_employee_salary_summary
 - monthly_deductions_summary
 - pending_payslip_generation
+- audit_trail_viewer
 ----------------------------------
 
 
