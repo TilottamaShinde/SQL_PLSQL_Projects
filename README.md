@@ -217,6 +217,7 @@ Aggregate functions
 - Employee_loan_status
 - active_employee_salary_summary
 - monthly_deductions_summary
+- pending_payslip_generation
 ----------------------------------
 
 
