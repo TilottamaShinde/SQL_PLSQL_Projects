@@ -210,6 +210,7 @@ Aggregate functions
 ## Procedures
 - AddEmployee
 - generate_payroll_for_month
+- generate_employee_payslip
 
 
 ## Views
