@@ -1,6 +1,6 @@
 # 💾 SQL & PL/SQL Projects
 
-This repository contains a collection of hands-on SQL and PL/SQL projects designed to demonstrate strong database design, query optimization, procedural programming, and real-world logic building. These projects are beginner to intermediate-friendly and showcase problem-solving using core database principles.
+This repository contains a collection of hands-on SQL and PL/SQL projects designed to demonstrate strong database design, query optimization, procedural programming, and real-world logic building. These projects are beginner to intermediate-friendly and showcase problem-solving using core database principles.  
 
 ---
 
