@@ -1,5 +1,5 @@
--- 
-DROP PROCEDURE generate_employee_payslip;
+-- Generate or update employee payslip for the given employee and month
+
 
 DELIMITER //
 CREATE PROCEDURE generate_employee_payslip(
