@@ -27,3 +27,6 @@ BEGIN
     CLOSE cur;
 END //
 DELIMITER ;
+
+-- Example Usage
+-- CALL bulk_generate_payslips('2025-05-01');
