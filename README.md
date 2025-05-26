@@ -212,6 +212,7 @@ Aggregate functions
 - generate_payroll_for_month
 - generate_employee_payslip
 - update_loan_installment
+- bulk_generate_payslips
 
 ## Views
 - Monthly_Payroll_Report
