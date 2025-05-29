@@ -221,6 +221,7 @@ Aggregate functions
 - monthly_deductions_summary
 - pending_payslip_generation
 - audit_trail_viewer
+- yearly_salary_sammary
 ----------------------------------
 
 
