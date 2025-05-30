@@ -201,6 +201,7 @@ Aggregate functions
 - Employee_payslip
 - Employee_salary
 - System_users
+- employee_bonus
 
 ## Triggers 
 -  after_employee_insert
