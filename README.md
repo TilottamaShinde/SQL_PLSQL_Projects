@@ -176,7 +176,7 @@ Language: SQL
 -----------------------------------
 ### HRMS Payroll
 
-To manage employee salaries, deductions, allowances, bonuses, and payslips efficiently. 
+Human Resource Management System: To manage employee salaries, deductions, allowances, bonuses, and payslips efficiently. 
 
 **Description**:  
 A comprehensive database project designed to manage HRMS operations using SQL and PL/SQL.
