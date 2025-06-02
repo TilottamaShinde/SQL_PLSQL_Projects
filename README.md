@@ -229,7 +229,7 @@ Aggregate functions
 
 ### Warehouse Management System (WMS)
 
-*** Key Functional Modules: ***
+## Key Functional Modules: 
 Warehouse & Location Management
 
 Inventory (Stock) Management
