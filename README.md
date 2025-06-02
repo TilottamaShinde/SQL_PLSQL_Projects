@@ -229,6 +229,22 @@ Aggregate functions
 
 ### Warehouse Management System (WMS)
 
+*** Key Functional Modules: ***
+Warehouse & Location Management
+
+Inventory (Stock) Management
+
+Inbound (Receiving)
+
+Outbound (Shipping / Order Fulfillment)
+
+Reorder Alerts / Stock Thresholds
+
+Audit & History Tracking
+
+User Roles (Admin, Warehouse Manager, Picker)
+
+Barcode/QR Code Integration (advanced)
 
 
 -----------------------------------------------------
