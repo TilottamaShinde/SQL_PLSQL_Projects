@@ -228,6 +228,7 @@ Aggregate functions
 ------------------------------------------------------
 
 ### Warehouse Management System (WMS)
+A simplified Warehouse Management System built to model real-world warehouse operations such as inventory control, inbound/outbound processing, stock movements, and order fulfillment. This project is inspired by enterprise-grade systems like Blue Yonder WMS and designed to demonstrate core warehousing functionalities using SQL and procedural programming.
 
 ## Key Functional Modules: 
 
